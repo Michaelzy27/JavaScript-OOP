@@ -18,6 +18,6 @@ const mike = new Mike()        // create object of the class
 console.log(mike.fingers)      // access class property by using the object instance to call the property 
 console.log(mike.leg)          // access class property by using the object instance to call the property 
 console.log(Mike.head)         // access static property by using the class itself to call the property
-console.log(Mike.eye)          
-mike.extraInfo();
-Mike.basicInfo();
+console.log(Mike.eye)          // access static property by using the class itself to call the property
+mike.extraInfo();              // call a class method by using the object instance as shown
+Mike.basicInfo();              // call a static metho by usinh the Class to access it
